@@ -50,12 +50,24 @@ export default function Modal01() {
             {card02.h2Modal}
             </p>
 
-            <ul className="ulModalCuidados marker:text-blue-500">
+            <ul className="cardAlert ulModalCuidados marker:text-blue-500">
+              <h2 className="pModalCuidados">{card02.li01}</h2>
               <li className="liModalCuidados">{card02.desc01}</li>
               <li className="liModalCuidados">{card02.desc02}</li>
-              <li className="liModalCuidados">{card02.desc03}</li>
-              
             </ul>
+
+            <ul className="cardAlert ulModalCuidados marker:text-blue-500">
+              <h2 className="pModalCuidados">{card02.li02}</h2>
+              <li className="liModalCuidados">{card02.desc03}</li>
+              <li className="liModalCuidados">{card02.desc04}</li>
+            </ul>
+
+            <ul className="cardAlert ulModalCuidados marker:text-blue-500">
+              <h2 className="pModalCuidados">{card02.li03}</h2>
+              <li className="liModalCuidados">{card02.desc05}</li>
+              <li className="liModalCuidados">{card02.desc06}</li>
+            </ul>
+
           </div>
         </div>
       )}
